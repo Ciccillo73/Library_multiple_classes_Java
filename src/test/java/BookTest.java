@@ -10,12 +10,17 @@ public class BookTest {
 
     @Before
     public void setUp(){
-        book = new Book("The Longest Journey", "John Delaware", "Adventure");
+        this.book = new Book("The Longest Journey", "John Delaware", "Adventure");
     }
 
     @Test
     public void hasTitle(){
         assertEquals("The Longest Journey", book.getTitle());
+    }
+
+    @Test
+    public void hasAuthor(){
+        assertEquals("John Delaware", book.getAuthor());
     }
 
 
