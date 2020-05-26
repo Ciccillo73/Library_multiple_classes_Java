@@ -22,4 +22,18 @@ public class Book {
     public String getGenre() {
         return this.genre;
     }
+
+//SETTERS
+    public setTitle(String newTitle){
+        this.title = newTitle;
+    }
+
+    public setAuthor(String newAuthor){
+        this.author = newAuthor;
+    }
+
+    public setGenre(String newGenre){
+        this.genre = newGenre;
+    }
+
 }
