@@ -24,16 +24,17 @@ public class Book {
     }
 
 //SETTERS
-    public setTitle(String newTitle){
+    public void setTitle(String newTitle){
         this.title = newTitle;
     }
 
-    public setAuthor(String newAuthor){
+    public void setAuthor(String newAuthor){
         this.author = newAuthor;
     }
 
-    public setGenre(String newGenre){
+    public void setGenre(String newGenre){
         this.genre = newGenre;
     }
+
 
 }
